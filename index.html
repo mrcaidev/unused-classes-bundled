@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal Reproducible Example</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script>
+      // Imagine we are toggling "dark" class of `<html>`
+      // to initialize the theme of our website.
+      //
+      // Remove this line and unused classes will not
+      // get accidentally bundled.
+      console.log("dark");
+    </script>
+  </head>
+  <body>
+    <p>This HTML file does not contain any Tailwind classes.</p>
+    <p>But some component classes still get bundled.</p>
+  </body>
+</html>

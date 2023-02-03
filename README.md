@@ -1,7 +1,7 @@
-# Tailwind Plugin - Minimal Reproduction Example
+# Unused classes get bundled
 
 Clone.
 
 Build.
 
-Scroll down to the bottom of `dist/index-[hash].css`, and see unused classes accidentally bundled.
+See a super-bloated `dist/assets/index-[hash].css`.
